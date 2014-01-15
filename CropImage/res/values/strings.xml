@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, MainActivity!</string>
+    <string name="app_name">CropImage</string>
+    <string name="recognizeButton">Recognize</string>
+    <string name="discard">Discard</string>
+    <string name="rotateLeft">Rotate Left</string>
+    <string name="rotateRight">Rotate Right</string>
+    
+</resources>

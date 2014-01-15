@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CropImage</string>
+    <string name="recognizeButton">Reconocer</string>
+    <string name="discard">Descartar</string>
+    <string name="rotateLeft">Rotar Izq.</string>
+    <string name="rotateRight">Rotar Dcha.</string>
+    
+</resources>

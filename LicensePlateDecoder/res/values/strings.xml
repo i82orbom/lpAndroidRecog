@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">License Plate Decoder</string>
+    <string name="RECENT_SHARED_PREFS">recent-shots-shared</string>
+
+    <!-- Splash Screen -->
+
+    <string name="titleSplashScreen">European License Plate Decoder</string>
+    <string name="subTitleSplashScreen">To start you can capture a license plate directly from the camera or simply select it from the gallery</string>
+    <string name="fromCameraLabelSplash">Capture from camera</string>
+    <string name="footerSplashDescription">It\'s possible to enable automatic country detection although it\'s still experimental, to enable/disable it go to settings menu. Also, there you can select the country of the license plate to be decoded.</string>
+    <string name="fromGallerySplashLabel">Select from gallery</string>
+	<string name="preferenceStatusDefaultText">Default prefs</string>
+    
+    <!-- Actions -->
+    <string name="openGallery">Open Gallery</string>
+
+    <!-- Splash Screen descriptions -->
+
+    <string name="buttonCameraSplashDescription">Camera</string>
+    <string name="cuttonGallerySplashDescription">Gallery</string>
+    <string name="title_activity_details">DetailsActivity</string>
+    
+    <string name="recognitionNotDoneMessage">License plate not recognized, try to crop the picture again (tip: if you did not select the automatic mode, do not include the european blue band (if present))</string>
+    
+    <!-- Menu -->
+	<string name="action_recentShots">Recent shots</string>
+    <string name="action_settings">Settings</string>
+	
+    
+    
+    <!-- Details Screen -->
+
+    <string name="regionName">Default region</string>
+    <string name="superRegionName">Default super region</string>
+    
+    <string name="buttonWikipedia">View article in Wikipedia</string>
+    <string name="buttonShare">Share</string>
+    <string name="buttonMap">View region in map</string>
+        
+    
+   <!-- Details Screen descriptions -->
+    <string name="capturedImgDescription">Captured Image</string>
+    <string name="flagImageDescription">Country flag</string>
+    
+    
+    <!-- Menu -->
+    <string name="action_shots_clear">Clear</string>
+    
+    
+    <!-- Recent shots Screen -->
+    <string name="gMaps">View in Google maps</string>
+    <string name="bingMaps">View in Bing maps</string>
+    <string name="openStreeMaps">View in OSM</string>
+    <string name="chooseMsg">Choose action</string>
+    <string name="recentShotsTitle">Recent shots</string>
+    <string name="emptyListLabel">EMPTY</string>
+    <string name="clearedMessage">Cleared</string>
+    <string name="viewInWikipedia">View article in Wikipedia</string>
+    <string name="viewInMap">View in map</string>
+    <string name="share">Share</string>
+    
+    <!-- Preferences Strings -->
+    <string name="prefsTitle">Settings</string>
+    <string name="automaticCheckBoxTitle">Country detection</string>
+    <string name="automaticCheckBoxSummary">Automatic/Manual</string>
+    
+    <string name="currentCountryTitle">Current Country</string>
+    <string name="currentCountrySummary">Select country to decode</string>
+    
+</resources>

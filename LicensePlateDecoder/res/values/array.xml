@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="listCountries">
+     <item>D - Germany</item>
+     <item>A - Austria</item>
+     <item>Switzerland</item>
+     <item>F - France</item>
+     <item>CZ - Czech Republic</item>
+     <item>PL - Poland</item>
+     <item>GB/UK - Great Britain</item>
+     <item>I - Italy</item>
+     <item>IRL - Ireland</item>
+     <item>SK - Slovakia</item>
+     <item>TR - Turkey</item>
+     <item>Russia</item>
+     <item>RO - Romania</item>
+     
+     </string-array>
+ 
+   <string-array name="listCountryValues">
+     <item>1</item> <!-- Germany -->
+     <item>2</item> <!-- Austria -->
+     <item>3</item> <!-- Switzerland -->
+     <item>4</item> <!-- France -->
+     <item>5</item> <!-- Czech Republic -->
+     <item>6</item> <!-- Poland -->
+     <item>7</item> <!-- Uk -->
+     <item>8</item> <!-- Italy -->
+     <item>9</item> <!-- Ireland -->
+     <item>10</item> <!-- Slovakia -->
+     <item>11</item> <!-- Turkey -->
+     <item>12</item> <!-- Russia -->
+     <item>13</item> <!-- Romania -->
+        
+	</string-array>
+   
+   
+
+    
+</resources>

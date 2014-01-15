@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- #b0000000  old value --> 
+    <color name="splashScreenBackgroundColor">#000000</color>
+    <color name="detailsScreenBackgroundColor">#000000</color>
+    
+    <color name="characterColor">#FFFFFF</color>
+    
+</resources>

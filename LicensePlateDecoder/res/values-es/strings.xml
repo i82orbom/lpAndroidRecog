@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Decodificador de matrículas</string>
+    <string name="RECENT_SHARED_PREFS">recent-shots-shared</string>
+
+    <!-- Splash Screen -->
+
+    <string name="titleSplashScreen">Decodificador de matrículas Europeo</string>
+    <string name="subTitleSplashScreen">Para empezar puedes capturar una matrícula directamente desde la cámara o la galería</string>
+    <string name="fromCameraLabelSplash">Capturar de la cámara</string>
+    										
+    <string name="footerSplashDescription">Es posible habilitar la detección automática de país, pero aún es experimental, para activar/desactivar-lo ve al menú preferencias. Además, ahí podrás seleccionar el país a reconocer.</string>
+    <string name="fromGallerySplashLabel">Seleccionar de la galería</string>
+	<string name="preferenceStatusDefaultText">Preferencia defect.</string>
+    
+    <string name="recognitionNotDoneMessage">Matrícula no reconocida, intenta recortar la imagen de nuevo (consejo: si seleccionaste el modo manual, no incluyas la banda azul europea (si está))</string>
+	
+    <!-- Actions -->
+    <string name="openGallery">Abrir Galería</string>
+
+    <!-- Splash Screen descriptions -->
+
+    <string name="buttonCameraSplashDescription">Cámara</string>
+    <string name="cuttonGallerySplashDescription">Galería</string>
+    <string name="title_activity_details">Detalles</string>
+    
+    
+    <!-- Menu -->
+	<string name="action_recentShots">Capturas previas</string>
+    <string name="action_settings">Preferencias</string>
+	
+    
+    
+    <!-- Details Screen -->
+
+    <string name="regionName">Region defect.</string>
+    <string name="superRegionName">SuperReg. defect.</string>
+    
+    <string name="buttonWikipedia">Ver artículo en Wikipedia</string>
+    <string name="buttonShare">Compartir</string>
+    <string name="buttonMap">Ver región en mapa</string>
+        
+    
+   <!-- Details Screen descriptions -->
+    <string name="capturedImgDescription">Imagen capturada</string>
+    <string name="flagImageDescription">Bandera país</string>
+    
+    
+    <!-- Menu -->
+    <string name="action_shots_clear">Vaciar</string>
+    
+    
+    <!-- Recent shots Screen -->
+    <string name="gMaps">Ver en Google maps</string>
+    <string name="bingMaps">Ver en Bing maps</string>
+    <string name="openStreeMaps">Ver en OSM</string>
+    <string name="chooseMsg">Seleccione acción</string>
+    <string name="recentShotsTitle">Capturas previas</string>
+    <string name="emptyListLabel">VACÍO</string>
+    <string name="clearedMessage">Vaciado</string>
+    <string name="viewInWikipedia">Ver artículo en Wikipedia</string>
+    <string name="viewInMap">Ver en mapa</string>
+    <string name="share">Compartir</string>
+    
+     <!-- Preferences Strings -->
+    <string name="prefsTitle">Preferencias</string> 
+    <string name="automaticCheckBoxTitle">Detección de país</string>
+    <string name="automaticCheckBoxSummary">Automatica/Manual</string>
+    
+    <string name="currentCountryTitle">País Actual</string>
+    <string name="currentCountrySummary">Seleccione el país a decodificar</string>
+    
+    
+    
+</resources>

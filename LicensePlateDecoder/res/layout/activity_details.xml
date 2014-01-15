@@ -1,0 +1,85 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/splashScreenBackgroundColor"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".DetailsActivity" >
+
+    <ImageView
+        android:id="@+id/capturedImg"
+        android:layout_width="160dip"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/regionName"
+        android:layout_alignParentBottom="true"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/capturedImgDescription"
+        android:maxHeight="160dip"
+        android:maxWidth="160dip"
+        android:layout_marginTop="25dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/ic_launcher" />
+
+    <TextView
+        android:id="@+id/superRegionName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/regionName"
+        android:layout_below="@+id/regionName"
+        android:layout_marginTop="17dp"
+        android:text="@string/superRegionName"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/characterColor" />
+
+    <Button
+        android:id="@+id/shareButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/superRegionName"
+        android:layout_below="@+id/flagImage"
+        android:layout_toLeftOf="@+id/flagImage"
+        android:text="@string/buttonShare" />
+
+    <Button
+        android:id="@+id/wikipediaButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/superRegionName"
+        android:layout_alignRight="@+id/shareButton"
+        android:layout_below="@+id/shareButton"
+        android:text="@string/buttonWikipedia" />
+
+    <Button
+        android:id="@+id/viewOnMapButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/superRegionName"
+        android:layout_alignRight="@+id/wikipediaButton"
+        android:layout_below="@+id/wikipediaButton"
+        android:text="@string/buttonMap" />
+
+    <TextView
+        android:id="@+id/regionName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="25dp"
+        android:text="@string/regionName"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <ImageView
+        android:id="@+id/flagImage"
+        android:layout_width="90dip"
+        android:layout_height="90dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/superRegionName"
+        android:layout_marginRight="17dp"
+        android:contentDescription="@string/flagImageDescription"
+        android:scaleType="centerInside"
+        android:src="@drawable/ic_launcher" />
+
+</RelativeLayout>
